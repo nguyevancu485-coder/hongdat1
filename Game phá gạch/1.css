@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+    /* nền tím + hồng pastel */
+    background: linear-gradient(135deg,#3cff00,#db490f);
+}
+
+canvas {
+    border: 2px solid #ffffff;
+
+    /* nền game tím đậm */
+    background: linear-gradient(180deg,#06fafa,#1a3d4d);
+}
+
+#startScreen {
+    position: absolute;
+
+    /* hộp menu hồng tím */
+    background: rgba(255, 192, 203, 0.25);
+
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+    padding: 25px;
+
+    border: 2px solid #ff0000;
+    border-radius: 12px;
+
+    backdrop-filter: blur(6px);
+}
+
+#startScreen h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+
+    /* chữ sáng */
+    color: #ffe4f3;
+}
+
+#startScreen button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+
+    /* nút hồng pastel */
+    background: linear-gradient(135deg,#c4ff80,#0077ff);
+    border: none;
+    border-radius: 8px;
+
+    color: #2b2b2b;
+    font-weight: bold;
+}
+
+#startScreen button:hover {
+
+    /* hiệu ứng hover */
+    background: linear-gradient(135deg,#bace07,#ff0000);
+    transform: scale(1.05);
+}

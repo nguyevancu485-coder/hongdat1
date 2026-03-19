@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#game {
+    display: block;
+    margin: auto;
+    background: skyblue;
+}
+
+#startText {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 40%;
+    font-size: 32px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
